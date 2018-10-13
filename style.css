@@ -1,0 +1,63 @@
+/* write your CSS here */
+body{
+    background-color: white;
+}
+h1{
+    font-size: 22px;
+    margin-left: 43px;
+}
+h4{
+    font-size: 15px;
+    color: black;
+    margin-left: 45px;
+}
+
+.navbar .navbar-expand-lg{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+   
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    background-image: url('images/logo.png');
+    width: 41px;
+    height: 43px;
+    background-position: center;
+    background-size: cover;
+}
+.image{
+    background-image: url('images/book.png');
+    background-position: center;
+    background-size: cover;
+    width: 139px;
+    height: 228px;
+}
+
+.display-3{
+      font-size: 32px;
+      color: #2FA4E7;
+      font-weight: 500;
+      margin: 0;
+}
+.sub-title{
+        font-size: 16px;
+        color: #104d6f;
+}
+
+#btn-1{
+    color: #104d6f;
+}
+
+input .form-control{
+    width:84px; 
+}
+
+.form-group{
+    width: 129px;
+}
